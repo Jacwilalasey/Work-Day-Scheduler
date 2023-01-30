@@ -6,13 +6,14 @@ body {
 }
 
 textarea {
+  text-align: center;
+  font-weight: bold;
   background: transparent;
   border: none;
   resize: none;
   color: #252422;
   border-left: 1px solid #403d39;
   padding: 10px;
-
 }
 
 .jumbotron {
@@ -46,6 +47,7 @@ textarea {
   border-bottom: 1px dashed #403d39;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
+  font-weight: bold;
 }
 
 .past {

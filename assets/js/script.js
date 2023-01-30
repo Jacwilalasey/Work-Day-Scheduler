@@ -16,6 +16,12 @@ $(document).ready(function(){
         }, 3000)
     })
 
+    $(".clearBtn").on("click", function () {
+		let activity = $(this).parent().find("content").text();
+		localStorage.removeItem(activity);
+		$(this).parent().find(".content").val("");
+	});
+
     function hourUpdate(){
         let currentHour = moment().hours();
 
